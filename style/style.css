@@ -6,11 +6,6 @@
   --cor-terciaria: #5d3891;
   --cor-hover: #301e67;
 
-  --cor-primariaclara: #ffffff;
-  --cor-secundariaclara: #000000;
-  --cor-terciariaclara: #362fd9;
-  --cor-hoverclara: #bdcdd6;
-
   --fonte-primaria: "Krona One", sans-serif;
   --fonte-segundaria: "Montserrat", sans-serif;
 }
@@ -108,6 +103,7 @@ body {
 
 .apresentacao__imagem {
   width: 50%;
+  height: 50%;
 }
 
 .rodape {
@@ -128,6 +124,7 @@ body {
 
   .cabecalho__menu {
     justify-content: center;
+    gap: 20px;
   }
 
   .apresentacao {

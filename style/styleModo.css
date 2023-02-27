@@ -1,5 +1,11 @@
+:root {
+  --cor-terciaria: #5d3891;
+  --fonte-segundaria: "Montserrat", sans-serif;
+}
+
 .cabecalho {
-  padding: 2% 0 0 15%;
+  padding: 5% 0 0 38%;
+
 }
 
 .cabecalho__menu {
@@ -56,3 +62,16 @@ button:hover {
   background-color: #fff;
   color: #333;
 }
+
+
+@media (max-width: 1200px) {
+  .cabecalho {
+    padding: 10%;
+  }
+
+  .cabecalho__menu {
+    justify-content: center;
+    gap: 20px;
+  }
+}
+
